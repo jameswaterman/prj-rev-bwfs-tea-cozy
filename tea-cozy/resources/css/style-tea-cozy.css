@@ -1,0 +1,189 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	font-family: helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.93;
+	text-align: center;
+}
+
+
+/* general css */
+
+.center {
+	margin: 0 auto;
+}
+
+
+/* header */
+
+header {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 2;
+	height: 69px;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid seashell;
+}
+
+img.logo {
+	height: 50px;
+	margin-left: 10px;
+}
+
+nav a {
+	margin: 0 10px;
+}
+
+
+
+/* Body */
+
+.body {
+	padding-top: 69px;
+}
+
+
+
+/* Our Mission */
+
+.mission {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	width: 1200px;
+	height: 700px;
+	display: flex;
+	align-items: center;
+}
+
+.mission-text {
+	width: 100%;
+}
+
+h2 {
+	font-size: 35px;	
+}
+
+h4 {
+	font-size: 23px;
+}
+
+h2, h4 {
+	padding: 10px;
+}
+
+
+
+/* Featured Teas and other foods */
+
+.featured-tea {
+	padding-top: 80px;
+}
+
+.teas {
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 15px;
+}
+
+.tea-pic {
+	height: 200px;
+	width: 300px;
+}
+
+.tea {
+	margin: 10px 15px;
+}
+
+
+
+/* Locations */
+
+.locations {
+	margin-top: 80px;	
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+	width: 1200px;
+	height:575px;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-squares {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+
+.location-square {
+	width: 300px;
+	height: 270px;
+	margin: 15px 20px;
+	opacity: 1;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.locations h2 {
+	background-color: transparent;
+	padding-top: 80px;
+}
+
+div.locations h3 {
+	font-size: 24px;
+}
+
+
+
+/* Contact Information */
+
+.contact {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+div.contact h5 {
+	font-size: 19px;
+	padding-top: 20px;
+}
+
+
+/* Footer */
+
+footer {
+	margin: 50px 0 30px 0;
+	text-align: left;
+}
+
+footer span {
+	margin-left: 20px;
+	font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
